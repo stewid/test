@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Bibliography</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SimInf</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="installation.html">Installation</a>
+</li>
+<li>
+  <a href="bibliography.html">Bibliography</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:stefan.widgren@sva.se">
+    <span class="fa fa-envelope-o"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/stewid/SimInf">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Bibliography</h1>
+
+</div>
+
+
+<p>S. Widgren, S. Engblom, U. Emanuelson and A. Lindberg (2018) Spatio-temporal modelling of verotoxigenic <em>Escherichia coli</em> O157 in cattle in Sweden: Exploring options for control. <em>Veterinary Research</em> 49:78. <a href="https://doi.org/10.1186/s13567-018-0574-2">DOI: 10.1186/s13567-018-0574-2</a></p>
+<p>R. Eriksson, S. Engblom, S. Widgren (2018) Towards Bayesian Parametrization of national scale epidemics. MATHMOD 2018 Extended Abstract Volume​, ARGESIM Report 55 (ISBN 978-3-901608-91-9), p 65-66. <a href="https://doi.org/10.11128/arep.55.a55245">DOI: 10.11128/arep.55.a55245</a></p>
+<p>P. Bauer (2017) Parallelism in Event-Based Computations with Applications in Biology. Doctoral thesis, Department of Information Technology, Uppsala University, Sweden. <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-332009" class="uri">http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-332009</a></p>
+<p>S. Engblom, S. Widgren (2017) Chapter 11 - Data-Driven Computational Disease Spread Modeling: From Measurement to Parametrization and Control, Editor(s): Arni S.R. Srinivasa Rao, Saumyadipta Pyne, C.R. Rao, In Handbook of Statistics, Elsevier, Volume 36, Pages 305–328. <a href="https://doi.org/10.1016/bs.host.2017.05.005">DOI: 10.1016/bs.host.2017.05.005</a></p>
+<p>P. Bauer, S. Engblom, and S. Widgren (2016) Fast event-based epidemiological simulations on national scales. <em>International Journal of High Performance Computing Applications</em> 30(4), 438-453. <a href="https://doi.org/10.1177/1094342016635723">DOI: 10.1177/1094342016635723</a></p>
+<p>S. Widgren, S. Engblom, P. Bauer, J. Frössling, U. Emanuelson, and A. Lindberg (2016) Data-driven network modeling of disease transmission using complete population movement data: Spread of VTEC O157 in Swedish cattle. <em>Veterinary Research</em> 47:81. <a href="https://doi.org/10.1186/s13567-016-0366-5">DOI: 10.1186/s13567-016-0366-5</a></p>
+<p>S. Widgren (2016) Studies on verotoxigenic <em>Escherichia coli</em> O157 in Swedish cattle: From sampling to disease spread modelling. Doctoral thesis, Department of Clinical Sciences, Swedish University of Agricultural Sciences, Sweden. <a href="http://pub.epsilon.slu.se/13821/" class="uri">http://pub.epsilon.slu.se/13821/</a></p>
+<p>S. Widgren, P. Bauer, and S. Engblom (2016) SimInf: An R package for Data-driven Stochastic Disease Spread Simulations. The SimInf manual available via <a href="http://arxiv.org/abs/1605.01421">arXiv</a>.</p>
+<p>P. Bauer (2015) Parallelism and Efficiency in Discrete-Event Simulation. Licentiate thesis, Department of Information Technology, Uppsala University, Sweden. <a href="http://www.it.uu.se/research/publications/lic/2015-004/" class="uri">http://www.it.uu.se/research/publications/lic/2015-004/</a></p>
+<div id="talks" class="section level2">
+<h2>Talks</h2>
+<p><strong>S. Widgren</strong>, S. Engblom, U Emanuelson, A. Lindberg,<em>“Spatio-temporal modelling of VTEC O157 in cattle in Sweden: Exploring options for control”</em> at <a href="https://workshop.inra.fr/modah2017/">Modelling in Animal Health conference - ModAH 2017</a>, 14–16 June 2017, Nantes, France.</p>
+<p><strong>S. Engblom</strong>, <a href="http://www.maths.lu.se/kalendarium/?event=data-driven-computational-epidemics">Data-driven computational Epidemics</a>, 6 March 2017, Lund, Sweden.</p>
+<p><strong>S. Engblom</strong>, <a href="http://www.birs.ca/workshops/2016/16w5041/files/Stefan_Engblom_BIRS.pdf">Data-driven Epidemiological Simulations: Verotoxigenic E. coli O157</a> at the workshop <a href="http://www.birs.ca/events/2016/5-day-workshops/16w5041">Mathematical Biology for Understanding Emerging Infectious Diseases at the Human-Animal-Environment Interface: a “One Health” Approach&quot;</a>, November 20–25 2016 in Banff, Canada. The lecture was video recorded <a href="http://videos.birs.ca/2016/16w5041/201611240925-Engblom.mp4">mp4</a>.</p>
+<p><strong>S. Widgren</strong>, P. Bauer, and S. Engblom, <em>“SimInf; an R-tool for data-driven modelling of disease spread and control”</em> at the 14th ISVEE Conference - International Symposium on Veterinary Epidemiology and Economics, 6 November 2015 Merida, Mexico.</p>
+<p><strong>S. Widgren</strong>, P. Bauer, and S. Engblom, <em>“Efficient data-driven simulation of infection spread in the Swedish cattle population”</em> at the minisymposium <a href="http://user.it.uu.se/~stefane/formalia/ProgramDDE.pdf">“Data-driven modelling of epidemics”</a> at the 9th European Conference on Mathematical and Theoretical Biology (ECMTB) 6 June 2014, Gothenburg, Sweden.</p>
+</div>
+<div id="workshops" class="section level2">
+<h2>Workshops</h2>
+<p>Stefan Widgren, <em>“Infectious disease modelling with SimInf”</em> at the Institute of Biodiversity, Animal Health &amp; Comparative Medicine, University of Glasgow, Scotland. Friday 14th December 2018.</p>
+<p>Stefan Widgren and Thomas Rosendal, <em>“Infectious disease modelling with SimInf”</em> at the 2017 Society for Veterinary Epidemiology and Preventive Medicine (<a href="http://www.svepm2017.org/programme/">SVEPM</a>) annual conference, 29 March 2017 Inverness, Scotland.</p>
+</div>
+<div id="posters" class="section level2">
+<h2>Posters</h2>
+<p>Robin Eriksson, <em>“Towards Bayesian Parametrization of national scale epidemics”</em> at Workshop IV: Uncertainty Quantification for Stochastic Systems and Applications. Part of the Long Program Complex High-Dimensional Energy Landscapes. 13–17 November 2017. IPAM at UCLA, Los Angeles, US.</p>
+<p>A. Comin, S. Widgren, E. Ågren, A. Lindberg, <a href="http://www.svepm.org.uk/f-Download-d-file.html?id=1098">“Data-driven stochastic modelling of Salmonella Dublin infection in dairy herds”</a> at the 2015 Society for Veterinary Epidemiology and Preventive Medicine (<a href="http://www.svepm.org.uk/f-Download-d-file.html?id=1254">SVEPM</a>) annual conference, 25–27 March 2015 Gent, Belgium.</p>
+</div>
+
+<hr/>
+<p>The <b>SimInf</b> software has been made possible by support from
+the Swedish Research Council within the UPMARC Linnaeus centre of
+Excellence (Pavol Bauer, Robin Eriksson and Stefan Engblom), the
+Swedish Research Council Formas (Stefan Engblom and Stefan Widgren),
+the Swedish Board of Agriculture (Stefan Widgren), and by the Swedish
+strategic research program eSSENCE (Stefan Widgren).</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
